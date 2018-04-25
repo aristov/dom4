@@ -1,6 +1,12 @@
 (function(window){'use strict';
   /* jshint loopfunc: true, noempty: false*/
   // http://www.w3.org/TR/dom/#element
+  var DocumentFragment = window.DocumentFragment;
+  var Element = window.Element;
+  var Event = window.Event;
+  var KeyboardEvent = window.KeyboardEvent;
+  var MouseEvent = window.MouseEvent;
+  var navigator = window.navigator;
 
   function createDocumentFragment() {
     return document.createDocumentFragment();
